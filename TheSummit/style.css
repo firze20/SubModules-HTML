@@ -1,0 +1,46 @@
+    a:hover {
+        color:blueviolet;
+    }
+
+    .nav-link {
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #5495ff;
+    }
+
+    .btn {
+        border: 1px solid #082959;
+        border-radius: 10px;
+        background-color: blanchedalmond;
+        color: blue;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .btn:hover {
+        color: white;
+        background-color: rgb(52, 46, 46);
+        font-size: 1rem;
+        border: wheat;
+    }
+
+    .btn:active {
+        color: wheat;
+        background-color: rgb(35, 43, 40);
+    }
+
+    .activity {
+        cursor: pointer;
+    }
+
+    .activity:hover {
+        background-color: black;
+        color: wheat
+    }
+
+    .activity:active {
+        background-color: rgb(8, 99, 62);
+        color: mintcream;
+    }
+

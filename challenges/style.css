@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(215, 219, 148);
+  }
+  
+  #box {
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 25% auto;
+  }
+  
+  #left {
+    border: 5px solid red;
+    width: 90px;
+    height: 190px;
+    display: inline-block; /* Ocupa uma linha */
+  }
+  
+  /* Com a div left em inline, esta div fica na mesma linha */
+  #right {
+    border: 5px solid blue;
+    width: 90px;
+    height: 190px;
+    float: right;
+  }
+  
